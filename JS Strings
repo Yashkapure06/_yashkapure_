@@ -1,0 +1,24 @@
+console.clear();
+var myFirstString = "I love Javascript";
+console.log(typeof(myFirstString));
+console.log(myFirstString);
+
+
+var mySecondString = 'We will earn JavaScript together';
+console.log(typeof(mySecondString));
+console.log(mySecondString);
+
+
+//What if my string contains a double quotes?
+var doubleQuoteString = "This is a \"JavaScript\" String";//this is escape sequence
+console.log(doubleQuoteString);
+
+
+//What if my string contains single quote?
+var singleQuoteString = 'This is a \'JavaScript\' String'
+console.log(singleQuoteString)
+
+
+//This don't shows error
+var doubleQuoteString2 = "This is a 'JavaScript' String";
+console.log(doubleQuoteString2);
