@@ -1,0 +1,62 @@
+console.clear()
+var  exampleString = "This is JavaScript tutorial"
+
+//toUppercase() => It converts our string to uppercase characters
+
+console.log(exampleString.toUpperCase())
+
+
+//toLowerCase => Converts our string to lower case characters
+
+console.log(exampleString.toLowerCase())
+
+
+
+//concat() => It merges two or more string
+var firstName = "JavaScript"
+var lastName = "Playground"
+console.log(exampleString.concat(firstName))
+
+console.log(exampleString.concat(lastName))
+
+console.log(exampleString.concat(' ', firstName,' ', lastName))
+
+
+//we can also use '+' to concat two or more strings
+console.log(firstName + ' ' + lastName + ' ' +exampleString)
+
+
+
+//trim() => It removes extra space
+var extraSpaceString = '                  mystring          '
+console.log(extraSpaceString.trim())
+
+
+var extraSpaceString2 = '                  my string          '
+console.log(extraSpaceString2.trim())
+
+
+//charAt() => this takes position of an arg and returns the character at that position
+
+var charAtExampleString = "This is my Test String"
+console.log(charAtExampleString.charAt(9))
+console.log(charAtExampleString.charAt(11))
+
+
+
+
+//split() => splits our string on the basis of the arguments passed
+
+var sampleString = "This is my Sample String"
+console.log(sampleString.split(' '))
+
+
+var sampleString2 = "This,is,my,Sample,String"
+console.log(sampleString2.split(','))
+
+
+var sampleString3 = "This is awesome"
+console.log(sampleString3.split())
+
+
+
