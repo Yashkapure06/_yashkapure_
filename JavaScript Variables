@@ -1,0 +1,35 @@
+console.clear();
+var firstNum = 10;
+console.log(firstNum);
+
+
+var secondNum = 15;
+console.log(secondNum);
+
+
+//Camel Case(Recommended for JS)
+var firstNum;
+
+
+
+//pascal case
+var FirstNum;
+
+
+
+//snake case
+var first_num;
+
+
+
+//Rules for Nameing JS Variable
+//- Name  ca contain letters, digits,_ and $
+var mySubject1, math$;
+//- Name cannot start with digits
+var math;
+//- Name can start with an _ or $
+var _subjectmarks,$rankInClass;
+//- Names are case sensitive
+var x, X;
+// - Names cannot be reserved keywords
+var varName;
