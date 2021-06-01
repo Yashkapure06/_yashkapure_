@@ -1,0 +1,10 @@
+console.clear();
+
+//
+
+var mVar // here mVar hods no value
+console.log(mVar)
+
+
+mVar = null // here mVar holds null value
+console.log(mVar)
