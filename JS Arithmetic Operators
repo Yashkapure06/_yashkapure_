@@ -1,0 +1,45 @@
+console.clear();
+
+
+var num1 = 10;
+var num2 = 20;
+var num3 = 30;
+
+
+//addition
+console.log('Addition')
+console.log(num1 + num2)
+console.log(num1 + num2 + num3)
+
+//Subtraction
+console.log('Subtraction')
+console.log(num3 - num2)
+console.log(num1 + num2 - num3)
+
+//Multiplication
+console.log('Multiplication')
+console.log(num3 * num2)
+console.log(num1 * num2 * num3)
+
+//Devision
+console.log('Devision')
+console.log(num3 / num2)
+console.log(num1 * num2 / num3)
+
+//Modulus
+console.log('Modulus')
+console.log(num3 % num2)
+
+//Increment =>Post and Pre
+console.log('Increment')
+console.log(num3++)
+console.log(num3++)
+console.log(num3)
+
+//Decrement =>Post and Pre
+console.log('Decrement')
+console.log(num3--)//post
+console.log(--num3)//pre
+console.log(num3)
+
+
